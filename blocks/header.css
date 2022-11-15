@@ -1,0 +1,17 @@
+.header{
+    background-color: #FFFFFF;
+    background-image: url("../images/background_header.svg");
+    display: flex;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__link{
+    transition: color 1.5s linear 0s;
+}
+
+.nav__link:hover {
+    color: #2F80ED ;
+}
