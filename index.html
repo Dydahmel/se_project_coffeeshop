@@ -132,7 +132,7 @@
 
                 </section>
                 <section class="recipes">
-                    <h3 class="recipes__title">Recipes</h3>
+                    <h2 class="recipes__title">Recipes</h2>
                     <p class="recipes__subtitle">
                         Check out some recipes we've collected for your home-brewing convenience:
                     </p>
@@ -172,7 +172,7 @@
 
                 </section>
                 <section class="reservation">
-                    <h4 class="reservation__title">Book a table</h4>
+                    <h2 class="reservation__title">Book a table</h2>
                     <form class="reservation__form">
                         <fieldset class="form__fieldset">
                             <label for="input-name" class="form__label">Name *</label>
@@ -180,7 +180,7 @@
                             type="text"
                             class="form__input"                            
                             placeholder="Name Surname" 
-                            input id="input-name" 
+                            input id="input-name"                                                        
                             required/>
                             <label for="input-number" class="form__label">Number of guests *</label>
                             <input 
@@ -194,7 +194,7 @@
                             required/>
                             <label for="input-date" class="form__label">Date & time *</label>
                             <input 
-                            type="datetime" 
+                            type="datetime-local" 
                             class="form__input"
                             form="form__input"                                                        
                             placeholder="mm/dd/yyyy --:-- --"
@@ -207,14 +207,15 @@
                             placeholder="email@email.com" 
                             input id="input-email" 
                             required/>
-                            <input 
-                            type="submit" 
-                            class="form__input form__input_submit" />
-                            <input 
-                            type="checkbox" 
-                            class="form__input form__input_checkbox"
-                            input id="input-checkbox" />
-                            <label for="input-checkbox" class="form__label">I agree with the terms of use </label>
+                            <button type="submit" class="form__button">Book a table</button>                            
+                            <label for="input-checkbox" class="form__label form__checkbox">
+                                <input 
+                                type="checkbox" 
+                                class="form__input_checkbox"
+                                input id="input-checkbox"/>
+                                I agree with the terms of use 
+                            </label>
+                            
 
                         </fieldset>
                         
@@ -225,6 +226,22 @@
                     </form>
                 </section>
                 <section class="about">
+                    <div class="about__title_content">
+                        <h2 class="about__title">About the<br>coffee shop</h2>
+                        <div class="about__content">
+                            <p class="about__paragraph">
+                                Our coffee shop is located in the Practicum Library's hall. 
+                                It features 6 tables and free WiFi.</p>
+                            <p class="about__paragraph">
+                                Our main mission is keeping guests cozy and energized.</p>
+                            <p class="about__paragraph">
+                                Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. 
+                                But you can buy one of our reusable cups!</p>
+                        </div>                        
+                    </div>
+                    <div class="about__circle"></div>
+                    <div class="about__circle about__circle_animation_blurred"></div>
+                    
 
                 </section>
 
