@@ -46,7 +46,7 @@
    
 
 .nav__link:hover {
-    color: #2F80ED ;
+    color: #2F80ED;
 }
 
 .header__image{
@@ -54,7 +54,7 @@
     top: 124px;
     right: 5px;
     height: 568px;
-    width: 646px; 
+    width: 646px;
     z-index: 0;   
 }
 
@@ -73,7 +73,7 @@
    font-style: normal;
    font-weight: 500;
    font-size: 60px;
-   line-height: 72px;   
+   line-height: 72px;
    margin-top: 202px;
    margin-left: 80px;
    position: relative;
