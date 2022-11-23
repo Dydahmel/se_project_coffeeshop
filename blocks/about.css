@@ -24,12 +24,12 @@
 
 .about__title_content{
     display: flex;
-    justify-content: space-between;        
+    justify-content: space-between;
     width: 100%;    
 }
 
 .about__title{
-    max-width: 251px;    
+    max-width: 251px;
     margin-top: 108px;
     margin-left: 80px;
     font-family: 'Inter';
@@ -43,8 +43,8 @@
 .about__content{
     max-width: 660px;
     margin-top: 119px;
-    margin-right: 80px; 
-    padding-bottom: 173px; 
+    margin-right: 80px;
+    padding-bottom: 173px;
     font-family: 'Noto Serif';
     font-style: normal;
     font-weight: normal;
