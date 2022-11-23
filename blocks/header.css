@@ -8,6 +8,7 @@
     margin: 0;
     position: relative;
     box-sizing: border-box;
+    
 }
 
 .logo{
@@ -101,14 +102,21 @@
     color: #6f6f6f;
 }
 
-.header__hours{
+.header__paragraph_container{
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     left: 80px;
     bottom: 40px;
+    right: 80px;
+}
+
+.header__hours{
+   margin: 0;
+   padding: 0;    
 }
 
 .header__adress{
-    position: absolute;
-    right: 80px;
-    bottom: 40px;
+    align-self: flex-end;
 }
+    
