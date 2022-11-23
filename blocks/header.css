@@ -59,7 +59,7 @@
     z-index: 0;   
 }
 
-.header__title_span-accent{
+.title__span-accent{
     display: block;
     font-family: "Noto serif";
     font-style: italic;
