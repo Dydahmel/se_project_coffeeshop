@@ -61,8 +61,8 @@
 .about__circle{
     background-color: #2f80ed;
     width: 426px;
-    height: 426px;    
-    border-radius: 50%;    
+    height: 426px;
+    border-radius: 50%;
     position: absolute;
     top: -159px;
     left: -129px;
@@ -70,6 +70,6 @@
     z-index: 0;
 }
 
-.about__circle_animation_blurred{    
+.about__circle_animation_blurred{
     animation: pulsate ease-in-out 1.3s infinite;
 }
