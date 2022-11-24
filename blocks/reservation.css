@@ -19,7 +19,7 @@
     line-height: 52px;
 }
 
-.reservation__form{    
+.form{    
     padding-bottom: 120px;
 }
 
@@ -91,7 +91,7 @@
 }
 
 
-.form__input_checkbox{
+.form__input-checkbox{
     background-color: #2f80ed;
     background-image: url('../images/check.svg');
     height: 20px;
