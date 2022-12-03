@@ -27,7 +27,7 @@
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
-    font-family: 'Inter', Arial, sans-serif;;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -37,7 +37,7 @@
 .footer__list{
     margin:0;
     padding:0;
-    list-style: none;    
+    list-style: none;
 }
 
 .footer__list-item{
@@ -53,8 +53,7 @@
 .footer__social-icon{
     width: 16px;
     height: 16px;
-    margin-right: 10px;    
-      
+    margin-right: 10px;
 }
 
 .footer__social-link{
@@ -62,7 +61,7 @@
     align-items: center; 
     text-decoration: none;
     transition: color 0.8s linear 0s;
-    font-family: 'Inter', Arial, sans-serif;;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -80,7 +79,7 @@
     margin-left: 80px;
     padding: 0;
     padding-bottom: 60px;
-    font-family: 'Inter', Arial, sans-serif;;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
